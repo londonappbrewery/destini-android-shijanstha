@@ -53,7 +53,7 @@ public class MainActivity extends AppCompatActivity {
         mButtonTop.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                if (mStoryIndex == 1) {
+                if (mStoryIndex == 1 || mStoryIndex == 2) {
                     mStoryIndex = 3;
                     mStoryTextView.setText(R.string.T3_Story);
                     mButtonTop.setText(R.string.T3_Ans1);
@@ -62,11 +62,6 @@ public class MainActivity extends AppCompatActivity {
                     mStoryTextView.setText(R.string.T6_End);
                     mButtonTop.setVisibility(View.GONE);
                     mButtonBottom.setVisibility(View.GONE);
-                } else if (mStoryIndex == 2) {
-                    mStoryIndex = 3;
-                    mStoryTextView.setText(R.string.T3_Story);
-                    mButtonTop.setText(R.string.T3_Ans1);
-                    mButtonBottom.setText(R.string.T3_Ans2);
                 }
 
             }
