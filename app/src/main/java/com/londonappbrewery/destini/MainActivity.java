@@ -12,7 +12,7 @@ public class MainActivity extends AppCompatActivity {
     TextView mStoryTextView;
     Button mButtonTop;
     Button mButtonBottom;
-    int mStoryIndex = 1;
+    private int mStoryIndex = 1;
 
 
     @Override
