@@ -58,7 +58,7 @@ public class MainActivity extends AppCompatActivity {
                     mStoryTextView.setText(R.string.T3_Story);
                     mButtonTop.setText(R.string.T3_Ans1);
                     mButtonBottom.setText(R.string.T3_Ans2);
-                } else if (mStoryIndex == 3) {
+                } else {
                     mStoryTextView.setText(R.string.T6_End);
                     mButtonTop.setVisibility(View.GONE);
                     mButtonBottom.setVisibility(View.GONE);
@@ -81,7 +81,7 @@ public class MainActivity extends AppCompatActivity {
                     mStoryTextView.setText(R.string.T4_End);
                     mButtonTop.setVisibility(View.GONE);
                     mButtonBottom.setVisibility(View.GONE);
-                } else if (mStoryIndex == 3) {
+                } else {
                     mStoryTextView.setText(R.string.T5_End);
                     mButtonTop.setVisibility(View.GONE);
                     mButtonBottom.setVisibility(View.GONE);
